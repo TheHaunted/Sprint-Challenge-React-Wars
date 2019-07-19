@@ -1,8 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  width: 100%;
 }
 /* write your parent styles in here for your App.js */
+
+.card {
+  display: inline-block;
+  width: 18% !important; /* I know, I know. I'm pressed for time, I'll fix it later */
+  /* margin: 0 20px; */
+  height: 89px;
+  /* padding: 10px 0 !important; */
+}
